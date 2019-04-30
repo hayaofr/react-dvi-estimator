@@ -1,0 +1,3 @@
+export const VUEDENEZ_CHANGED = "VUEDENEZ_CHANGED";
+export const ASTRO_CHANGED = "ASTRO_CHANGED";
+export const LUNE_CHANGED = "LUNE_CHANGED";
