@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 const mapStateToProps = state => {
-    return { lune: state.lune };
+    return {lune: state.lune};
 };
 
 function mapDispatchToProps(dispatch) {
@@ -40,8 +40,10 @@ class Lune extends Component {
                                     <option value="3">Décroissante</option>
                                 </Form.Control>
                             </Form.Group>
-                            <Form.Group bsPrefix='form-group text-center' >
-                                <Button type="button" bsPrefix='btn btn-success btn-outline-rounded btn-info' onClick={this.handleClick()} >Suivant <span className="btn-style glyphicon glyphicon-arrow-right"/></Button>
+                            <Form.Group bsPrefix='form-group text-center'>
+                                <Button type="button" bsPrefix='btn btn-success btn-outline-rounded btn-info'
+                                        onClick={this.handleClick()}>Suivant <span
+                                    className="btn-style glyphicon glyphicon-arrow-right"/></Button>
                             </Form.Group>
                         </div>
                     </Form.Row>
@@ -65,9 +67,9 @@ class Lune extends Component {
 
     handleChange() {
         return e => {
-            this.props.updateLune({ valeur: e.target.value});
+            this.props.updateLune({valeur: e.target.value});
         };
     }
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(Lune);
+export default connect(mapStateToProps, mapDispatchToProps)(Lune);

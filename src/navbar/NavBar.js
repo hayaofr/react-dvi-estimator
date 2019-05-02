@@ -29,10 +29,28 @@ class NavBar extends Component {
                             </span>
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/heure" activeClassName="active">
+                                <span className="round-tabs four">
+                                    <i className="glyphicon glyphicon-time"/>
+                            </span>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/result" activeClassName="active">
+                                <span className="round-tabs five">
+                                    <i className="glyphicon glyphicon-ok"/>
+                            </span>
+                        </NavLink>
+                    </li>
                 </ul>
                 <div className="clearfix"/>
             </div>
         );
+    }
+
+    isActive() {
+        return true;
     }
 }
 

@@ -1,3 +1,6 @@
 export const VUEDENEZ_CHANGED = "VUEDENEZ_CHANGED";
 export const ASTRO_CHANGED = "ASTRO_CHANGED";
 export const LUNE_CHANGED = "LUNE_CHANGED";
+export const HEURE_CHANGED = "HEURE_CHANGED";
+export const COMPUTE_RESULT = "COMPUTE_RESULT";
+export const SHOW_MODAL = "SHOW_MODAL";

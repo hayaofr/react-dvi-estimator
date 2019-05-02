@@ -9,6 +9,11 @@
 @extend .ng-invalid;
 }
 
+.modal {
+    display: flex !important;
+    align-items: center;
+}
+
 .btn-style {
     margin-left: 10px;
 }
