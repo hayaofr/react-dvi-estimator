@@ -2,13 +2,6 @@
     background: #efefe9;
 }
 
-.is-valid {
-}
-
-.is-invalid {
-@extend .ng-invalid;
-}
-
 .modal {
     display: flex !important;
     align-items: center;
